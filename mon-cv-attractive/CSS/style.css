@@ -1,0 +1,97 @@
+body {
+    margin: 2%;
+    background-color: rgb(53, 35, 77);
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#haut {
+    text-align: center;
+    border: 2px solid rgb(233, 118, 218);
+    color: rgb(52, 253, 112);
+    border-radius: 15px;
+    background-color: rgb(53, 35, 77);
+    font-weight: bold;
+    position: fixed;
+    margin-top: -1.5%;
+    margin-left: 75%;
+    padding: 0.5%;
+}
+
+#haut h1, #haut p {
+    text-decoration: underline;
+}
+
+#haut img {
+    border: 8px solid rgb(52, 253, 112);
+    border-radius: 15px;
+}
+
+#milieu {
+    margin: 2% 2%;
+    background-color: rgb(78, 54, 109);
+    border: 2px solid rgb(52, 253, 112);
+    border-radius: 15px;
+    padding: 1%;
+}
+
+#milieu h2, #milieu h3 {
+    margin: 2% 0% 0%;
+    color: rgb(233, 118, 218);
+    text-decoration: underline;
+}
+
+#milieu strong {
+    color: rgb(52, 253, 112);
+}
+
+#milieu img {
+    border-radius: 30px;
+    background-color: white;
+    padding: 0.1%;
+}
+
+#mileu a:link, #milieu a:visited {
+    color: rgb(52, 253, 112);
+}
+
+#milieu a:hover {
+    color: rgb(233, 118, 218);
+}
+
+#milieu a:active {
+    color: rgb(52, 253, 112);
+}
+
+#bas {
+    margin: 2% 8%;
+    border: 2px solid rgb(233, 118, 218);
+    border-radius: 15px;
+    background-color: rgb(78, 54, 109);
+    padding: 2% 8%;
+}
+
+#bas h4 {
+    color: rgb(52, 253, 112);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 2.75em;
+    text-shadow: rgb(53, 35, 77) 4px 4px 4px;
+}
+
+#bas p {
+    line-height: 1.75em;
+    margin-bottom: 1.5em;
+    font-size: 1.25em;
+    text-align: justify;
+    border-left: 4px solid rgb(52, 253, 112);
+    border-right: 106px solid rgb(52, 253, 112);
+    border-radius: 10px;
+    padding: 0% 1%;
+    word-spacing: 0.15em;
+    background-color: rgb(53, 35, 77);
+}
+
+#bas p i {
+    color: rgb(233, 118, 218);
+}
